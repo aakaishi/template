@@ -1,3 +1,15 @@
+:root {
+  --bg-primary-color: #ffffff;
+  --bg-secondary-color: #f5f5f5;
+  --bg-tertiary-color: #000000;
+
+  --button-primary-bg: #8f0101;
+  --button-secondary-bg: #b81515;
+
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
