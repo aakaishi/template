@@ -9,16 +9,21 @@
   <body>
     <header>
       <a href="index.html" title="Home page access">
-        <img src="img/logo.png" alt="The logo describe  all the website characteristics" />
+        <img class="logo" src="img/logo-removed-bg.png" alt="The logo describe  all the website characteristics" />
       </a>
-      <img src="/img/menu.png" alt="Menu" />
-      <nav>
-        <ul>
-          <li><a href="index.html" title="Home page access">Home</a></li>
-          <li><a href="about.html" title="Find some references about me">About</a></li>
-          <li><a href="contact.html" title="Contact access">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="menu-nav">
+        <label for="menu">
+          <img src="img/menu.png" alt="Menu" />
+        </label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul>
+            <li><a href="index.html" title="Home page access">Home</a></li>
+            <li><a href="about.html" title="Find some references about me">About</a></li>
+            <li><a href="contact.html" title="Contact access">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section>

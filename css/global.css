@@ -6,9 +6,10 @@ font-face {
 }
 
 :root {
-  --bg-primary-color: #ffffff;
-  --bg-secondary-color: #f5f5f5;
-  --bg-tertiary-color: #000000;
+  --bg-primary-color: #016B61;
+  --bg-secondary-color: #70B2B2;
+  --bg-tertiary-color: #9ECFD4;
+  --bg-quaternary-color: #E5E9C5;
 
   --button-primary-bg: #8f0101;
   --button-secondary-bg: #b81515;
