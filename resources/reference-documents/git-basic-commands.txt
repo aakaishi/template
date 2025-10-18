@@ -1,0 +1,9 @@
+git init
+git status
+git add {name-of-document|.}
+git commit -m "{descriptive message}"
+git push {--set-upstream|empty} {origin|empty} {branch-name} 
+git checkout {-b|empty} {branch-name}    // -b used for create new branch 
+git reset --soft HEAD^
+git stash
+ 
