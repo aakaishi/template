@@ -1,9 +1,10 @@
 header{
-    background-color: var(--bg-tertiary-color);
+    background-color: var(--bg-secondary-color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 10px;
+    position: relative;
 }
 
 .logo{
@@ -16,10 +17,24 @@ nav{
     display: none;
 }
 
+.list-nav li {
+    margin: 16px 0;
+}
+
+.list-nav li a{
+    color: var(--text-secondary-color);
+    text-decoration: none;
+}
+
 .menu-nav{
     margin-top: 50px;
 }
 
 input[type="checkbox"]:checked ~ nav{
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-secondary-color);
 }
